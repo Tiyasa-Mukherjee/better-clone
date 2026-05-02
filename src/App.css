@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #017848;
+  --green-dark: #004733;
+  --green-light: #e0f5ed;
+  --black: #1b2141;
+  --gray: #6b7280;
+  --gray-light: #f7f7f7;
+  --white: #ffffff;
+  --border: #e0e0e0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: var(--black);
+  background: var(--white);
+}
+
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; outline: none; }

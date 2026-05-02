@@ -1,0 +1,25 @@
+.calc-header { padding: 48px 64px 24px; border-bottom: 1px solid var(--border); }
+.calc-header h1 { font-size: 32px; font-weight: 700; color: var(--green-dark); }
+.calc-main { display: flex; gap: 48px; padding: 40px 64px; max-width: 1100px; margin: 0 auto; align-items: flex-start; }
+.calc-inputs { flex: 1.5; display: flex; flex-direction: column; gap: 24px; }
+.input-group { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.input-group label { font-size: 14px; font-weight: 600; color: var(--black); }
+.input-wrap { display: flex; align-items: center; border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; gap: 6px; font-size: 16px; }
+.input-wrap input { border: none; outline: none; font-size: 16px; width: 100%; color: var(--black); }
+.input-wrap span { color: var(--gray); font-weight: 500; }
+.slider { width: 100%; accent-color: var(--green); height: 4px; }
+.input-row { display: flex; gap: 16px; }
+.select-input { border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; font-size: 16px; color: var(--black); outline: none; width: 100%; }
+.get-preapproved { background: var(--green); color: white; padding: 14px 28px; border-radius: 999px; font-size: 16px; font-weight: 600; width: fit-content; }
+.calc-result { flex: 1; background: var(--green-dark); border-radius: 16px; padding: 32px; color: white; position: sticky; top: 80px; }
+.monthly-amount { font-size: 40px; font-weight: 700; display: block; margin-bottom: 24px; }
+.breakdown { display: flex; flex-direction: column; gap: 12px; }
+.breakdown-item { display: flex; justify-content: space-between; font-size: 15px; opacity: 0.85; padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.15); }
+.breakdown-item:last-child { border-bottom: none; }
+.calc-steps { background: var(--gray-light); padding: 64px; text-align: center; }
+.calc-steps h2 { font-size: 28px; font-weight: 700; margin-bottom: 40px; color: var(--green-dark); }
+.steps-grid { display: flex; gap: 48px; justify-content: center; max-width: 900px; margin: 0 auto; }
+.step { flex: 1; text-align: left; }
+.step-num { display: inline-flex; width: 40px; height: 40px; background: var(--green); color: white; border-radius: 50%; align-items: center; justify-content: center; font-weight: 700; font-size: 18px; margin-bottom: 12px; }
+.step h3 { font-size: 18px; font-weight: 600; margin-bottom: 8px; color: var(--green-dark); }
+.step p { font-size: 14px; color: var(--gray); line-height: 1.6; }
