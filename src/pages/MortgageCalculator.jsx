@@ -4,8 +4,8 @@ import Footer from '../components/Footer'
 import './MortgageCalculator.css'
 
 export default function MortgageCalculator() {
-  const [homePrice, setHomePrice] = useState(300000)
-  const [downPayment, setDownPayment] = useState(60000)
+  const [homePrice, setHomePrice] = useState(200000)
+const [downPayment, setDownPayment] = useState(40000)
   const [zip, setZip] = useState('421005')
   const [term, setTerm] = useState(30)
   const rate = 6.5
