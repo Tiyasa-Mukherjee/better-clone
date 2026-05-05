@@ -3,8 +3,6 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './MortgageCalculator.css'
 
-
-
 export default function MortgageCalculator() {
   const [homePrice, setHomePrice] = useState(200000)
 const [downPayment, setDownPayment] = useState(40000)
